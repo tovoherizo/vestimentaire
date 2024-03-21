@@ -1,0 +1,15 @@
+@media screen and (max-width :2000px){
+.boutton{
+    /* border: solid 2px red; */
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    margin-bottom: 20px;
+  
+}
+}

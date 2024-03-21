@@ -1,0 +1,99 @@
+@media screen and (max-width: 2000px) {
+  .card {
+    /* border: 2px solid red; */
+    background-image: url("../photo/sectioon1/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: initial;
+    color: white;
+    width: 60vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    padding-bottom: 11%;
+  }
+  button {
+    height: 4vh;
+    width: 10vw;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(234, 233, 231);
+    border-radius: 18px;
+    border-style: none;
+    margin-left: 20px;
+  }
+  .cardsary {
+    display: flex;
+    /* border: 2px solid red; */
+    height: 40vh;
+    width: 90vw;
+    position: absolute;
+    z-index: 300;
+    margin-top: 82%;
+    margin-left: 45%;
+  }
+  .card-title {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    /* padding-bottom: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-text {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20%;
+    padding-top: 25px;
+  }
+  .prix {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -25%;
+  }
+  .vidiny1 {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .vidiny2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .date {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -35px;
+    gap: 10px;
+  }
+  .temp {
+    /* border: 2px solid red; */
+    height: 10vh;
+    width: 5vw;
+    border-radius: 15px;
+    color: black;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(234, 233, 231);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  h4 {
+    display: flex;
+    align-items: center;
+    place-content: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-top: 1px;
+  }
+}

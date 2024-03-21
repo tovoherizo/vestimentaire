@@ -1,0 +1,53 @@
+@media screen and (max-width :2000px){
+.Card {
+  display: flex;
+  /* border: red 2px solid; */
+  justify-content: space-around;
+  align-items: center;
+
+}
+/* .cardProduit {
+  border: 2px solid green;
+  padding-bottom: 10px;
+
+} */
+.btn {
+  position: absolute;
+  margin:-150px;
+  margin-left: 90px;
+  width: 10vw;
+  height: 5vh;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+.btn:hover{
+   width: 11vw;
+  height: 6vh;
+  background-color: rgb(235, 118, 10);
+  color: white; 
+}
+.type{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    padding-bottom: 50px;
+    margin-top: 5%;
+}
+.up{
+    margin-left: 60px;
+}
+.image{
+    padding-bottom: 60px;
+}
+}
+

@@ -1,0 +1,67 @@
+@media screen and (max-width :2000px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tablo{
+  height: 90vh;
+    /* background-color: red; */
+    border: 1px;
+    overflow-y: scroll;
+    margin-top: 10%;
+    
+    width: 90vw;
+    /* background-color: red; */
+    position: absolute;
+    z-index: 1;
+    margin-left: 75%;
+    margin-top: 5%;
+
+}
+td {
+ border: 2px solid black;
+ height: 8vh;
+ width: 19vw;
+ /* background-color: red; */
+
+}
+table{
+    width: 60vw;
+    text-align: center;
+}
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconList{
+    font-size: 1.5rem;
+}
+.iconList:hover{
+    cursor: pointer;
+}
+.delete{
+    height: 5vh;
+    width: 8vw;
+    background-color: red;
+
+    
+}
+.container{
+    width: 100%;
+    display: grid;
+    
+   
+}
+h3{
+    display: flex;
+    position: relative;
+    margin-left: 550%;
+   
+    
+ 
+  
+}
+}

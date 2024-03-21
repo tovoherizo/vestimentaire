@@ -1,0 +1,43 @@
+@media screen and (max-width :2000px){
+.container{
+     display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  height: 120vh;
+ 
+}
+.card{
+     height: 60vh;
+
+}
+.btn{
+    margin: 17%;
+    margin-top: -4%;
+  
+}
+.sar{
+ 
+    height: 40vh;
+    width: 23rem;
+}
+.vidiny{
+    /* padding-top: 28px; */
+     font-size: 1.5rem;
+     font-weight: bolder;
+      height: 3vh;
+margin-top: -17%;
+}
+.titra{
+     padding-bottom: 32px;
+  
+       height: 3vh;
+       margin-top: -15%;
+}
+.desc{
+    height: 2vh;
+margin-top: -23%;
+display: flex;
+justify-content: start;
+}
+}
